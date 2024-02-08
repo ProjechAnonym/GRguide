@@ -64,10 +64,28 @@ API:
 前端需要在下载nodejs的环境中打包,打包后的文件可以由nginx部署
 以下是nginx的示例,后端服务器部署在192.168.50.5机器上,监听8082端口
 ```
+# 此处为ssl重定向配置
+server {
+        listen       8081;
+		listen		 [::]:8081 ipv6only=on;
+        server_name  singbox.lzhlovelcl.top asus.lzhlovelcl.top pve.lzhlovelcl.top portainer.lzhlovelcl.top filebrowser.lzhlovelcl.top plex.lzhlovelcl.top nav.lzhlovelcl.top book.lzhlovelcl.top mtphoto.lzhlovelcl.top;
+
+        #charset koi8-r;
+
+        #access_log  logs/host.access.log  main;
+
+        location / {
+            root   html;
+            index  index.html index.htm;
+			rewrite ^/(.*) https://$host:8443$request_uri permanent;
+        }
+	}
+# 此处为前端页面监听配置
 server {
 	listen       8443 ssl;
-	listen		 [::]:8443 ssl; 
-	server_name  nav.lzhlovelcl.top;
+	listen		 [::]:8443 ssl;
+# 此处填写的域名是你在浏览器实际访问的
+	server_name  nav.example.com;
 	ssl_certificate      /opt/nginx/config/ssl/public.pem;
 	ssl_certificate_key  /opt/nginx/config/ssl/private.key;
 
@@ -85,12 +103,12 @@ server {
   }
   
 }
-
+# 此处为后端监听配置
 server {
 	listen       8443 ssl;
 	listen		 [::]:8443 ssl;
   # 后端api的域名,和前端api写的域名是一致的
-	server_name  navapi.lzhlovelcl.top;
+	server_name  navapi.example.com;
 	ssl_certificate      /opt/nginx/config/ssl/public.pem;
 	ssl_certificate_key  /opt/nginx/config/ssl/private.key;
 
