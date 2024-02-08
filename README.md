@@ -68,7 +68,7 @@ API:
 server {
         listen       8081;
 		listen		 [::]:8081 ipv6only=on;
-        server_name  singbox.lzhlovelcl.top asus.lzhlovelcl.top pve.lzhlovelcl.top portainer.lzhlovelcl.top filebrowser.lzhlovelcl.top plex.lzhlovelcl.top nav.lzhlovelcl.top book.lzhlovelcl.top mtphoto.lzhlovelcl.top;
+        server_name  nav.example.com;
 
         #charset koi8-r;
 
