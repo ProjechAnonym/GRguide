@@ -1,0 +1,25 @@
+.links {
+  margin: 0 0.5rem 0 0.5rem;
+  text-decoration: none;
+  color: rgb(70, 70, 70);
+}
+.developer {
+  text-align: center;
+  margin: 0;
+  font-size: 0.8rem;
+  color: rgb(70, 70, 70);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.dark-links {
+  margin: 0 0.5rem 0 0.5rem;
+  text-decoration: none;
+  color: rgb(195, 195, 195);
+}
+.dark-developer {
+  text-align: center;
+  margin: 0;
+  font-size: 0.8rem;
+  color: rgb(195, 195, 195);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}

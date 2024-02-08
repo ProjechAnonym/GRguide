@@ -1,0 +1,77 @@
+.header {
+  width: 5.8rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  background-color: ghostwhite;
+  border-color: rgb(228, 246, 246);
+  border-style: solid;
+  border-radius: 2px;
+  margin-top: 0.3rem;
+}
+.dark-header {
+  width: 5.8rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  background-color: rgb(49, 49, 49);
+  border-color: rgb(77, 77, 77);
+  border-style: solid;
+  border-radius: 2px;
+  margin-top: 0.3rem;
+}
+.card {
+  text-align: center;
+  flex: 0 0 auto;
+  background-color: azure;
+  margin: 0.8rem 0.8rem 0.3rem 0.8rem;
+  border-radius: 15px;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 128, 255, 0.3);
+  border-style: solid;
+  border-color: rgba(0, 255, 255, 0.121);
+}
+.dark-card {
+  text-align: center;
+  flex: 0 0 auto;
+  background-color: rgb(121, 121, 121);
+  margin: 0.8rem 0.8rem 0.3rem 0.8rem;
+  border-radius: 15px;
+  box-shadow: 0.3em 0.3em 0.3em rgba(255, 255, 255, 0.274);
+  color: aliceblue;
+  border-style: solid;
+  border-color: darkgrey;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.link:hover {
+  cursor: pointer;
+}
+.dark-link:hover {
+  cursor: pointer;
+}
+#darkSwitch:hover {
+  cursor: pointer;
+}
+.calender {
+  background-color: azure;
+  border-radius: 5px;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 128, 255, 0.3);
+  border-style: solid;
+  border-color: rgba(0, 255, 255, 0.121);
+}
+.dark-calender {
+  background-color: rgb(121, 121, 121);
+  border-radius: 5px;
+  box-shadow: 0.3em 0.3em 1em rgba(236, 236, 236, 0.3);
+  border-style: solid;
+  border-color: rgba(237, 237, 237, 0.121);
+}
+.navNotification {
+  background-color: azure;
+  color: dimgray;
+  width: 5rem;
+}

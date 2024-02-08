@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4423438 */
+  src: url('iconfont.woff2?t=1706845679133') format('woff2'),
+       url('iconfont.woff?t=1706845679133') format('woff'),
+       url('iconfont.ttf?t=1706845679133') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Donate:before {
+  content: "\eb16";
+}
+
+.icon-boke:before {
+  content: "\e6ef";
+}
+
+.icon-Youtube:before {
+  content: "\e880";
+}
+
+.icon-telegram:before {
+  content: "\e9ac";
+}
+
+.icon-github:before {
+  content: "\ec01";
+}
+
+.icon-bilibili:before {
+  content: "\e849";
+}
+

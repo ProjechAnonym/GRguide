@@ -1,0 +1,23 @@
+{
+  "id": "4431782",
+  "name": "警告",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1105003",
+      "name": "警告",
+      "font_class": "warning",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "5129931",
+      "name": "012-warning",
+      "font_class": "-warning",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    }
+  ]
+}

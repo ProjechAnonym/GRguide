@@ -1,0 +1,588 @@
+@media screen and (min-width: 1200px) {
+  .webgroupcontainer {
+    height: 11.5rem;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .webgroupcontainer::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  .webgroupcontainer::-webkit-scrollbar-track {
+    color: #000;
+  }
+  .anchorcontainer {
+    position: fixed;
+    right: 1rem;
+    top: 15rem;
+  }
+  .dark-anchorcontainer {
+    position: fixed;
+    right: 1rem;
+    top: 15rem;
+  }
+  .anchorbutton {
+    position: absolute;
+    right: 2.5rem;
+    top: -1.8rem;
+    background-color: transparent;
+    border: 2px solid rgb(158, 226, 255);
+    padding: 0;
+    border-radius: 3px;
+    padding-top: 2.5px;
+    color: darkgray;
+  }
+  .anchorbutton:hover {
+    cursor: pointer;
+  }
+  .dark-anchorbutton:hover {
+    cursor: pointer;
+  }
+  .dark-anchorbutton {
+    position: absolute;
+    right: 2.5rem;
+    top: -1.8rem;
+    background-color: transparent;
+    border: 2px solid rgb(230, 230, 230);
+    padding: 0;
+    border-radius: 3px;
+    padding-top: 2.5px;
+    color: aliceblue;
+  }
+  .anchorList {
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    text-align: left;
+  }
+  .dark-anchorList {
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    text-align: left;
+  }
+  .anchorList::-webkit-scrollbar {
+    display: none;
+  }
+  .dark-anchorList::-webkit-scrollbar {
+    display: none;
+  }
+  .anchorEle {
+    text-decoration: none;
+    color: darkgray;
+  }
+  .dark-anchorEle {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  .websitecontainer {
+    max-height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    position: relative;
+  }
+  .websitecontainer::-webkit-scrollbar {
+    display: inline;
+    width: 0.5rem;
+  }
+  .websitecontainer::-webkit-scrollbar-thumb {
+    background-color: darkgray;
+    border-radius: 3px;
+  }
+  .sitesearch {
+    width: 20rem;
+    margin: 3rem 0rem 1rem -4rem;
+    height: 2.5rem;
+  }
+  .dark-sitesearch {
+    width: 20rem;
+    margin: 3rem 0rem 1rem -4rem;
+    height: 2.5rem;
+  }
+  .siteinput {
+    height: 2.5rem;
+    font-size: 1.8rem;
+    background-color: azure;
+    border: 2px solid rgba(47, 67, 67, 0.44);
+    border-radius: 5px;
+  }
+  .dark-siteinput {
+    height: 2.5rem;
+    font-size: 1.8rem;
+    background-color: rgb(121, 121, 121);
+    border: 2px solid rgba(221, 221, 221, 0.44);
+    border-radius: 5px;
+  }
+  .siteinput:focus {
+    box-shadow: 0.3em 0.3em 0.2em rgba(0, 128, 255, 0.3);
+    height: 2.5rem;
+    font-size: 1.8rem;
+    background-color: azure;
+    border: 2px solid rgba(47, 67, 67, 0.44);
+    border-radius: 5px;
+  }
+  .dark-siteinput:focus {
+    box-shadow: 0.3em 0.3em 0.2em rgba(237, 237, 237, 0.3);
+    height: 2.5rem;
+    font-size: 1.8rem;
+    background-color: azure;
+    border: 2px solid rgba(47, 67, 67, 0.44);
+    border-radius: 5px;
+  }
+  .sitebutton {
+    height: 2.5rem;
+    background-color: azure;
+    border: 2px solid rgba(47, 67, 67, 0.44);
+    border-radius: 5px;
+    color: darkgray;
+  }
+  .dark-sitebutton {
+    height: 2.5rem;
+    background-color: rgb(120, 120, 120);
+    border: 2px solid rgba(232, 232, 232, 0.44);
+    border-radius: 5px;
+    color: aliceblue;
+  }
+  .sitebutton:hover {
+    box-shadow: 0.3em 0.3em 0.2em rgba(0, 128, 255, 0.3);
+    cursor: pointer;
+    height: 2.5rem;
+    background-color: azure;
+    border: 2px solid rgba(47, 67, 67, 0.44);
+    border-radius: 5px;
+    color: darkgray;
+  }
+  .dark-sitebutton:hover {
+    box-shadow: 0.3em 0.3em 0.2em rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    height: 2.5rem;
+    background-color: azure;
+    border: 2px solid rgba(226, 226, 226, 0.44);
+    border-radius: 5px;
+    color: darkgray;
+  }
+  .websiteLink:hover {
+    cursor: pointer;
+  }
+  .websiteCard {
+    position: relative;
+    background-color: azure;
+    box-shadow: 0.3em 0.3em 0.2em rgba(0, 128, 255, 0.3);
+    border-radius: 6px;
+    border: 2px solid rgba(135, 255, 255, 0.44);
+    height: 3rem;
+    margin: 0.2rem 0.5rem 0.1rem 0.5rem;
+    width: 13rem;
+    color: rgba(0, 0, 139, 0.545);
+    display: flex;
+    flex-direction: row;
+    transition: 0.1s;
+  }
+  .dark-websiteCard {
+    position: relative;
+    background-color: rgb(121, 121, 121);
+    box-shadow: 0.3em 0.3em 0.2em rgba(230, 230, 230, 0.3);
+    border-radius: 6px;
+    border: 2px solid rgba(231, 231, 231, 0.44);
+    height: 3rem;
+    margin: 0.2rem 0.5rem 0.1rem 0.5rem;
+    width: 13rem;
+    color: rgba(202, 251, 255, 0.545);
+    display: flex;
+    flex-direction: row;
+    transition: 0.1s;
+  }
+  .websiteCard:hover {
+    transform: scale(1.05);
+  }
+  .dark-websiteCard:hover {
+    transform: scale(1.05);
+  }
+  .websiteButton {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: transparent;
+    border-style: none;
+    color: darkgray;
+  }
+  .dark-websiteButton {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: transparent;
+    border-style: none;
+    color: aliceblue;
+  }
+  .websiteButton:hover {
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: transparent;
+    border-style: none;
+    color: darkgray;
+    box-shadow: 0.3em 0.3em 0.2em rgba(0, 128, 255, 0.3);
+    border-radius: 3px;
+    border: 2px solid rgba(135, 255, 255, 0.44);
+  }
+  .dark-websiteButton:hover {
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: transparent;
+    border-style: none;
+    color: aliceblue;
+    box-shadow: 0.3em 0.3em 0.2em rgba(233, 233, 233, 0.3);
+    border-radius: 3px;
+    border: 2px solid rgba(226, 226, 226, 0.44);
+  }
+  .groupname {
+    box-shadow: 0 0.3rem 0.2rem rgba(0, 128, 255, 0.3);
+    border-bottom: 5px double rgb(9, 103, 158);
+    border-left: 2px solid rgb(9, 103, 158);
+    border-right: 2px solid rgb(9, 103, 158);
+    border-top: 2px solid rgb(9, 103, 158);
+    border-radius: 15px;
+    font-size: 1.5rem;
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+    color: rgb(10, 63, 91);
+    font-weight: bold;
+  }
+  .groupname:hover {
+    cursor: pointer;
+  }
+  .dark-groupname:hover {
+    cursor: pointer;
+  }
+  .dark-groupname {
+    box-shadow: 0 0.3rem 0.2rem rgba(221, 221, 221, 0.3);
+    border-bottom: 5px double rgba(229, 229, 229, 0.828);
+    border-left: 2px solid rgba(229, 229, 229, 0.828);
+    border-right: 2px solid rgba(229, 229, 229, 0.828);
+    border-top: 2px solid rgba(229, 229, 229, 0.828);
+    border-radius: 15px;
+    font-size: 1.5rem;
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+    color: azure;
+    font-weight: bold;
+  }
+  .groupnamedelete {
+    background-color: azure;
+    color: darkgray;
+    box-shadow: 0.3em 0.3em 0.2em rgba(0, 128, 255, 0.3);
+    border-radius: 6px;
+    border: 2px solid rgba(135, 255, 255, 0.44);
+    width: 15rem;
+  }
+  .dark-groupnamedelete {
+    background-color: rgb(120, 120, 120);
+    color: aliceblue;
+    box-shadow: 0.3em 0.3em 0.2em rgba(231, 231, 231, 0.3);
+    border-radius: 6px;
+    border: 2px solid rgba(203, 203, 203, 0.44);
+    width: 15rem;
+  }
+  .groupnamedeletecontent {
+    color: darkgray;
+  }
+  .dark-groupnamedeletecontent {
+    color: aliceblue;
+  }
+  .webdeletenotification {
+    background-color: azure;
+  }
+  .dark-webdeletenotification {
+    background-color: rgb(121, 121, 121);
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 1199px) {
+  .anchorcontainer {
+    position: fixed;
+    right: 1rem;
+    top: 15rem;
+  }
+  .dark-anchorcontainer {
+    position: fixed;
+    right: 1rem;
+    top: 15rem;
+  }
+  .anchorbutton {
+    position: absolute;
+    right: 0;
+    top: -1.8rem;
+    background-color: transparent;
+    border: 2px solid rgb(158, 226, 255);
+    padding: 0;
+    border-radius: 3px;
+    padding-top: 2.5px;
+    color: darkgray;
+  }
+  .dark-anchorbutton {
+    position: absolute;
+    right: 0;
+    top: -1.8rem;
+    background-color: transparent;
+    border: 2px solid rgb(230, 230, 230);
+    padding: 0;
+    border-radius: 3px;
+    padding-top: 2.5px;
+    color: aliceblue;
+  }
+  .anchorList {
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    text-align: left;
+  }
+  .dark-anchorList {
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    text-align: left;
+  }
+  .anchorList::-webkit-scrollbar {
+    display: none;
+  }
+  .dark-anchorList::-webkit-scrollbar {
+    display: none;
+  }
+  .anchorEle {
+    text-decoration: none;
+    color: darkgray;
+  }
+  .dark-anchorEle {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  .websitecontainer {
+    height: 45rem;
+    width: 100%;
+    overflow: auto;
+    position: relative;
+  }
+  .sitesearch {
+    width: 16rem;
+    margin: 3rem 0rem 1rem 0.5rem;
+    height: 2.5rem;
+  }
+  .dark-sitesearch {
+    width: 16rem;
+    margin: 3rem 0rem 1rem 0.5rem;
+    height: 2.5rem;
+  }
+  .siteinput {
+    height: 2.5rem;
+    font-size: 1rem;
+    background-color: azure;
+    border: 2px solid rgba(47, 67, 67, 0.44);
+    border-radius: 5px;
+  }
+  .dark-siteinput {
+    height: 2.5rem;
+    font-size: 1rem;
+    background-color: rgb(121, 121, 121);
+    border: 2px solid rgba(221, 221, 221, 0.44);
+    border-radius: 5px;
+  }
+  .siteinput:focus {
+    box-shadow: 0.3em 0.3em 0.2em rgba(0, 128, 255, 0.3);
+    height: 2.5rem;
+    font-size: 1.2rem;
+    background-color: azure;
+    border: 2px solid rgba(47, 67, 67, 0.44);
+    border-radius: 5px;
+  }
+  .dark-siteinput:focus {
+    box-shadow: 0.3em 0.3em 0.2em rgba(237, 237, 237, 0.3);
+    height: 2.5rem;
+    font-size: 1.2rem;
+    background-color: azure;
+    border: 2px solid rgba(47, 67, 67, 0.44);
+    border-radius: 5px;
+  }
+  .sitebutton {
+    height: 2.5rem;
+    background-color: azure;
+    border: 2px solid rgba(47, 67, 67, 0.44);
+    border-radius: 5px;
+    color: darkgray;
+  }
+  .dark-sitebutton {
+    height: 2.5rem;
+    background-color: rgb(120, 120, 120);
+    border: 2px solid rgba(232, 232, 232, 0.44);
+    border-radius: 5px;
+    color: aliceblue;
+  }
+  .sitebutton:hover {
+    box-shadow: 0.3em 0.3em 0.2em rgba(0, 128, 255, 0.3);
+    cursor: pointer;
+    height: 2.5rem;
+    background-color: azure;
+    border: 2px solid rgba(47, 67, 67, 0.44);
+    border-radius: 5px;
+    color: darkgray;
+  }
+  .dark-sitebutton:hover {
+    box-shadow: 0.3em 0.3em 0.2em rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    height: 2.5rem;
+    background-color: azure;
+    border: 2px solid rgba(226, 226, 226, 0.44);
+    border-radius: 5px;
+    color: darkgray;
+  }
+  .websiteLink:hover {
+    cursor: pointer;
+  }
+  .websiteCard {
+    position: relative;
+    background-color: azure;
+    box-shadow: 0.3em 0.3em 0.2em rgba(0, 128, 255, 0.3);
+    border-radius: 6px;
+    border: 2px solid rgba(135, 255, 255, 0.44);
+    height: 3rem;
+    margin: 0.2rem 0.5rem 0.1rem 0.5rem;
+    width: 8.5rem;
+    font-size: 0.8rem;
+    color: rgba(0, 0, 139, 0.545);
+    display: flex;
+    flex-direction: row;
+    transition: 0.1s;
+  }
+  .dark-websiteCard {
+    position: relative;
+    background-color: rgb(121, 121, 121);
+    box-shadow: 0.3em 0.3em 0.2em rgba(230, 230, 230, 0.3);
+    border-radius: 6px;
+    border: 2px solid rgba(231, 231, 231, 0.44);
+    height: 3rem;
+    margin: 0.2rem 0.5rem 0.1rem 0.5rem;
+    width: 8.5rem;
+    font-size: 0.8rem;
+    color: rgba(202, 251, 255, 0.545);
+    display: flex;
+    flex-direction: row;
+    transition: 0.1s;
+  }
+  .websiteCard:hover {
+    transform: scale(1.05);
+  }
+  .dark-websiteCard:hover {
+    transform: scale(1.05);
+  }
+  .websiteButton {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: transparent;
+    border-style: none;
+    color: darkgray;
+  }
+  .dark-websiteButton {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: transparent;
+    border-style: none;
+    color: aliceblue;
+  }
+  .websiteButton:hover {
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: transparent;
+    border-style: none;
+    color: darkgray;
+    box-shadow: 0.3em 0.3em 0.2em rgba(0, 128, 255, 0.3);
+    border-radius: 3px;
+    border: 2px solid rgba(135, 255, 255, 0.44);
+  }
+  .dark-websiteButton:hover {
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: transparent;
+    border-style: none;
+    color: aliceblue;
+    box-shadow: 0.3em 0.3em 0.2em rgba(233, 233, 233, 0.3);
+    border-radius: 3px;
+    border: 2px solid rgba(226, 226, 226, 0.44);
+  }
+  .groupname {
+    box-shadow: 0 0.3rem 0.2rem rgba(0, 128, 255, 0.3);
+    border-bottom: 5px double rgb(9, 103, 158);
+    border-left: 2px solid rgb(9, 103, 158);
+    border-right: 2px solid rgb(9, 103, 158);
+    border-top: 2px solid rgb(9, 103, 158);
+    border-radius: 15px;
+    font-size: 1.2rem;
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+    color: rgb(10, 63, 91);
+    font-weight: bold;
+  }
+  .groupname:hover {
+    cursor: pointer;
+  }
+  .dark-groupname:hover {
+    cursor: pointer;
+  }
+  .dark-groupname {
+    box-shadow: 0 0.3rem 0.2rem rgba(221, 221, 221, 0.3);
+    border-bottom: 5px double rgba(229, 229, 229, 0.828);
+    border-left: 2px solid rgba(229, 229, 229, 0.828);
+    border-right: 2px solid rgba(229, 229, 229, 0.828);
+    border-top: 2px solid rgba(229, 229, 229, 0.828);
+    border-radius: 15px;
+    font-size: 1.2rem;
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+    color: azure;
+    font-weight: bold;
+  }
+  .groupnamedelete {
+    background-color: azure;
+    color: darkgray;
+    box-shadow: 0.3em 0.3em 0.2em rgba(0, 128, 255, 0.3);
+    border-radius: 6px;
+    border: 2px solid rgba(135, 255, 255, 0.44);
+    width: 15rem;
+  }
+  .dark-groupnamedelete {
+    background-color: rgb(120, 120, 120);
+    color: aliceblue;
+    box-shadow: 0.3em 0.3em 0.2em rgba(231, 231, 231, 0.3);
+    border-radius: 6px;
+    border: 2px solid rgba(203, 203, 203, 0.44);
+    width: 15rem;
+  }
+  .groupnamedeletecontent {
+    color: darkgray;
+  }
+  .dark-groupnamedeletecontent {
+    color: aliceblue;
+  }
+  .webdeletenotification {
+    background-color: azure;
+  }
+  .dark-webdeletenotification {
+    background-color: rgb(121, 121, 121);
+  }
+  .webgroupcontainer {
+    height: 6.2rem;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
