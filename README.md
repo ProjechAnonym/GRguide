@@ -76,6 +76,7 @@ server {
 
 	ssl_ciphers  HIGH:!aNULL:!MD5;
 	ssl_prefer_server_ciphers  on;
+# 默认在html下的build目录中索引index.html文件
   root   html/build;
 	index  index.html index.htm;
 	location / {
