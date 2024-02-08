@@ -1,0 +1,19 @@
+MariaDb:
+  addr: 127.0.0.1
+  port: 3306
+  database: "ginGuide"
+  user: "root"
+  password: ""
+SMTP:
+  host: "smtp.qq.com"
+  port: 25
+  username: ""
+  password: ""
+Redis:
+  addr: "127.0.0.1:6379"
+  password: ""
+  DB: 0
+Cors:
+  origin: "http://localhost:3000"
+API:
+  host: "http://127.0.0.1:8080/api"
